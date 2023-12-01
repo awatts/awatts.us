@@ -4,7 +4,7 @@ title = 'Andrew Watts'
 theme = 'ananke'
 
 [services.disqus]
-  shortname = 'awatts18'
+  shortname = 'https-awatts-us'
 
 [params]
     author = "Andrew Watts"
