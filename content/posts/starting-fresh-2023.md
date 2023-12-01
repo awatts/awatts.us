@@ -1,7 +1,7 @@
 +++
 title = 'Starting Fresh (At The End Of) 2023'
 date = 2023-12-01T10:32:37-05:00
-draft = true
+draft = false
 +++
 
 I haven't had a regularly updated blog since the days of Livejournal. I can't guarantee
