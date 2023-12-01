@@ -1,0 +1,36 @@
+baseURL = 'https://awatts.us/'
+languageCode = 'en-us'
+title = 'Andrew Watts'
+theme = 'ananke'
+
+[services.disqus]
+  shortname = 'awatts18'
+
+[params]
+    author = "Andrew Watts"
+    # site_logo = "TRY TO MAKE A LOGO TO GO IN THE UPPER LEFT CORNER"
+    background_color_class = "bg-dark-green"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://universeodon.com/@awatts"
+
+[[params.ananke_socials]]
+name = "bluesky"
+label = "BlueSky"
+url = "https://bsky.app/profile/awatts.bsky.social"
+color = "#2274f0"
+
+[[params.ananke_socials]]
+name = "threads"
+label = "Threads"
+url = "https://www.threads.net/@andrewlwatts"
+color = "black"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/awatts"
+
+[[params.ananke_socials]]
+name = "rss"
+url = "/index.xml"
