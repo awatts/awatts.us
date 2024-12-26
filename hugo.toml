@@ -11,26 +11,39 @@ theme = 'ananke'
     # site_logo = "TRY TO MAKE A LOGO TO GO IN THE UPPER LEFT CORNER"
     background_color_class = "bg-dark-green"
 
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://universeodon.com/@awatts"
+[params.ananke.social.follow]
+new_window_icon = false
+networks = [
+  "mastodon",
+  "bluesky",
+  "threads",
+  "github",
+  "rss"
+]
 
-[[params.ananke_socials]]
-name = "bluesky"
+[ananke.social.mastodon]
+profile = "https://universeodon.com/%s"
+username = "@awatts"
+profilelink = "https://universeodon.com/@awatts"
+
+[params.ananke.social.bluesky]
 label = "BlueSky"
-url = "https://bsky.app/profile/awatts.bsky.social"
+slug = "bluesky"
+profilelink = "https://bsky.app/profile/awatts.bsky.social"
 color = "#2274f0"
 
-[[params.ananke_socials]]
-name = "threads"
+[params.ananke.social.threads]
+slug = "threads"
+icon = "threads"
 label = "Threads"
-url = "https://www.threads.net/@andrewlwatts"
+username = "@andrewlwatts"
+profile = "https://www.threads.net/%s"
+link = "https://www.threads.net/"
 color = "black"
 
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/awatts"
+[params.ananke.social.github]
+username = "awatts"
+profilelink = "https://github.com/awatts"
 
-[[params.ananke_socials]]
-name = "rss"
-url = "/index.xml"
+[params.ananke.social.rss]
+profilelink = "/index.xml"
