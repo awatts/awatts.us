@@ -12,34 +12,27 @@ theme = 'ananke'
     background_color_class = "bg-dark-green"
 
 [params.ananke.social.follow]
-new_window_icon = false
-networks = [
-  "mastodon",
-  "bluesky",
-  "threads",
-  "github",
-  "rss"
-]
+  new_window_icon = false
+  networks = [
+    #"mastodon",
+    "bluesky",
+    "threads",
+    "github",
+    "rss"
+  ]
 
-[ananke.social.mastodon]
-profile = "https://universeodon.com/%s"
+[parms.ananke.social.mastodon]
 username = "@awatts"
+profile = "https://universeodon.com/%s"
 profilelink = "https://universeodon.com/@awatts"
 
 [params.ananke.social.bluesky]
-label = "BlueSky"
-slug = "bluesky"
+username = "awatts"
 profilelink = "https://bsky.app/profile/awatts.bsky.social"
-color = "#2274f0"
 
 [params.ananke.social.threads]
-slug = "threads"
-icon = "threads"
-label = "Threads"
 username = "@andrewlwatts"
-profile = "https://www.threads.net/%s"
-link = "https://www.threads.net/"
-color = "black"
+profilelink = "https://www.threads.net/@andrewlwatts"
 
 [params.ananke.social.github]
 username = "awatts"
@@ -47,3 +40,13 @@ profilelink = "https://github.com/awatts"
 
 [params.ananke.social.rss]
 profilelink = "/index.xml"
+
+[[ananke.social.networks]]
+slug = "threads"
+label = "Threads"
+icon = "threads"
+profile = "https://www.threads.net/%s"
+link = "https://www.threads.net/"
+color = "black"
+[ananke.social.networks.particles]
+text = "permalink"
