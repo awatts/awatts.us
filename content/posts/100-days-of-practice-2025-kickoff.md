@@ -2,6 +2,7 @@
 title = '100 Days of Practice 2025 Kickoff'
 date = 2024-12-31T13:12:30-05:00
 draft = false
+tags = ["guitar", "bass", "mandolin", "drums", "100DaysOfPractice"]
 +++
 
 For 2025, I am going to start with a "100 days of practice" for the second year in a row. Last year I just kept track
